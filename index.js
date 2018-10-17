@@ -6,7 +6,6 @@ function handleFormSubmit(event) {
     event.preventDefault();
     let city = (event['target'][0]['value'])
     fetchCurrentWeather(city)
-    console.log("handleFormSubmit function")
     fetchFiveDayForecast(city)
 }
 
