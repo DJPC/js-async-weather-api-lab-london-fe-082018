@@ -2,7 +2,6 @@ const API_KEY = "a1cbc4b45d6e7126f02f6ae69308ceed"
 const main = document.getElementById("cityForm")
 
 function handleFormSubmit(event) {
-  //handle submit event
     event.preventDefault();
     let city = (event['target'][0]['value'])
     fetchCurrentWeather(city)
